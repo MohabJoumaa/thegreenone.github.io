@@ -39,3 +39,54 @@ body {
     background-color: transparent;
     text-align: center;
 }
+
+/* small smartphones */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .note {
+        font-size: 24px;
+    }
+
+    .techs {
+        width: 25px;
+        height: 25px;
+        margin: 2px;
+    }
+}
+
+/* smartphones and small tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .note {
+        font-size: 32px;
+    }
+
+    .techs {
+        width: 30px;
+        height: 30px;
+        margin: 3px;
+    }
+}
+
+/* tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    .note {
+        font-size: 36px;
+    }
+
+    .techs {
+        width: 35px;
+        height: 35px;
+        margin: 4px;
+    }
+}
